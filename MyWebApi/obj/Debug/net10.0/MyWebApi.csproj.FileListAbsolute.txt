@@ -25,7 +25,6 @@ C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\staticwebasset
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\staticwebassets.development.json
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\swae.build.ex.cache
-C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\MyWebApi.csproj.Up2Date
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\MyWebApi.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\MyWebApi\obj\Debug\net10.0\refint\MyWebApi.dll

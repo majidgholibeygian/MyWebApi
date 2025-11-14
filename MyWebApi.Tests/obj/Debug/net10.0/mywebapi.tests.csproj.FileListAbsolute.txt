@@ -104,10 +104,10 @@ C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\bin\Debug\net10.0\zh-Hant\
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\bin\Debug\net10.0\mywebapi.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\bin\Debug\net10.0\mywebapi.pdb
-C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.E22C5D7D.Up2Date
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\refint\mywebapi.tests.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.pdb
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.genruntimeconfig.cache
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\ref\mywebapi.tests.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.sourcelink.json
+C:\projectsource\train\cicd\mywebapici\mywebapi.tests\obj\Debug\net10.0\MyWebApi.A222E720.Up2Date

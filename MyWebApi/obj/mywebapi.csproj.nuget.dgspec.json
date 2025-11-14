@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\mywebapi\\mywebapi.csproj": {}
+    "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj": {}
   },
   "projects": {
-    "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\mywebapi\\mywebapi.csproj": {
+    "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\mywebapi\\mywebapi.csproj",
+        "projectUniqueName": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj",
         "projectName": "mywebapi",
-        "projectPath": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\mywebapi\\mywebapi.csproj",
+        "projectPath": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj",
         "packagesPath": "C:\\Users\\wr\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\mywebapi\\obj\\",
+        "outputPath": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wr\\AppData\\Roaming\\NuGet\\NuGet.Config"

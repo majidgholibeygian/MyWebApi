@@ -1,0 +1,35 @@
+name: CI-CD for .NET WebAPI
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build_test_publish:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore MyWebApiSolution.sln
+
+    - name: Build project
+      run: dotnet build MyWebApiSolution.sln --no-restore --configuration Release
+
+    - name: Run tests
+      run: dotnet test MyWebApi.Tests/MyWebApi.Tests.csproj --no-build --verbosity normal
+
+    - name: Publish project (only if tests succeed)
+      run: dotnet publish MyWebApi/MyWebApi.csproj -c Release -o ./publish
+
+    - name: Deploy to Localhost
+      run: |
+        echo Starting app...
+        Start-Process 'dotnet' 'run --project ./MyWebApi/MyWebApi.csproj'
