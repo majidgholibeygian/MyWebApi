@@ -110,3 +110,4 @@ C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\refint\m
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.pdb
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.genruntimeconfig.cache
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\ref\mywebapi.tests.dll
+C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi.tests\obj\Debug\net10.0\mywebapi.tests.sourcelink.json

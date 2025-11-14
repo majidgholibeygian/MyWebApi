@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|c:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|c:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8363D7A-EA72-4D35-972B-3541591AD69B}|mywebapi.tests\\mywebapi.tests.csproj|c:\\projectsource\\train\\cicd\\mywebapici\\mywebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8363D7A-EA72-4D35-972B-3541591AD69B}|mywebapi.tests\\mywebapi.tests.csproj|solutionrelative:mywebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|c:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,55 +17,20 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Models\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Models\\WeatherForecast.cs",
-              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Models\\WeatherForecast.cs",
-              "RelativeToolTip": "MyWebApi\\Models\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T18:43:58.594Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Program.cs",
-              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Program.cs",
-              "RelativeToolTip": "MyWebApi\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T18:25:09.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "MyWebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T18:36:56.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "MyWebApi.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "MyWebApi.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAD4vw0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T17:54:46.855Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T20:03:07.153Z",
               "EditorCaption": ""
             }
           ]

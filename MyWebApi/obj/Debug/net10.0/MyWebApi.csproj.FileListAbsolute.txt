@@ -36,3 +36,4 @@ C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi\bin\Debug\net10.0\Scalar.AspNetC
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\ProjectSource\Train\CICD\MyWebApiCI\mywebapi\obj\Debug\net10.0\mywebapi.sourcelink.json
