@@ -1456,32 +1456,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wr\\.nuget\\packages\\": {}
+    "C:\\Users\\gholibeygian.m\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi.tests\\MyWebApi.Tests.csproj",
-      "projectName": "MyWebApi.Tests",
-      "projectPath": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi.tests\\MyWebApi.Tests.csproj",
-      "packagesPath": "C:\\Users\\wr\\.nuget\\packages\\",
-      "outputPath": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi.tests\\obj\\",
+      "projectUniqueName": "D:\\Train\\CICD\\MyWebApi\\mywebapi.tests\\mywebapi.tests.csproj",
+      "projectName": "mywebapi.tests",
+      "projectPath": "D:\\Train\\CICD\\MyWebApi\\mywebapi.tests\\mywebapi.tests.csproj",
+      "packagesPath": "C:\\Users\\gholibeygian.m\\.nuget\\packages\\",
+      "outputPath": "D:\\Train\\CICD\\MyWebApi\\mywebapi.tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gholibeygian.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Projects\\SEYAT": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj": {
-              "projectPath": "C:\\projectsource\\train\\cicd\\mywebapici\\mywebapi\\mywebapi.csproj"
+            "D:\\Train\\CICD\\MyWebApi\\mywebapi\\mywebapi.csproj": {
+              "projectPath": "D:\\Train\\CICD\\MyWebApi\\mywebapi\\mywebapi.csproj"
             }
           }
         }
@@ -1535,7 +1544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1683,7 +1692,7 @@
           "System.Buffers": "(,5.0.32767]",
           "System.Collections": "(,4.3.32767]",
           "System.Collections.Concurrent": "(,4.3.32767]",
-          "System.Collections.Immutable": "(,10.0.0-rc.2.25502.107]",
+          "System.Collections.Immutable": "(,10.0.32767]",
           "System.Collections.NonGeneric": "(,4.3.32767]",
           "System.Collections.Specialized": "(,4.3.32767]",
           "System.ComponentModel": "(,4.3.32767]",
@@ -1696,7 +1705,7 @@
           "System.Data.DataSetExtensions": "(,4.4.32767]",
           "System.Diagnostics.Contracts": "(,4.3.32767]",
           "System.Diagnostics.Debug": "(,4.3.32767]",
-          "System.Diagnostics.DiagnosticSource": "(,10.0.0-rc.2.25502.107]",
+          "System.Diagnostics.DiagnosticSource": "(,10.0.32767]",
           "System.Diagnostics.FileVersionInfo": "(,4.3.32767]",
           "System.Diagnostics.Process": "(,4.3.32767]",
           "System.Diagnostics.StackTrace": "(,4.3.32767]",
@@ -1706,8 +1715,8 @@
           "System.Diagnostics.Tracing": "(,4.3.32767]",
           "System.Drawing.Primitives": "(,4.3.32767]",
           "System.Dynamic.Runtime": "(,4.3.32767]",
-          "System.Formats.Asn1": "(,10.0.0-rc.2.25502.107]",
-          "System.Formats.Tar": "(,10.0.0-rc.2.25502.107]",
+          "System.Formats.Asn1": "(,10.0.32767]",
+          "System.Formats.Tar": "(,10.0.32767]",
           "System.Globalization": "(,4.3.32767]",
           "System.Globalization.Calendars": "(,4.3.32767]",
           "System.Globalization.Extensions": "(,4.3.32767]",
@@ -1721,25 +1730,25 @@
           "System.IO.FileSystem.Watcher": "(,4.3.32767]",
           "System.IO.IsolatedStorage": "(,4.3.32767]",
           "System.IO.MemoryMappedFiles": "(,4.3.32767]",
-          "System.IO.Pipelines": "(,10.0.0-rc.2.25502.107]",
+          "System.IO.Pipelines": "(,10.0.32767]",
           "System.IO.Pipes": "(,4.3.32767]",
           "System.IO.Pipes.AccessControl": "(,5.0.32767]",
           "System.IO.UnmanagedMemoryStream": "(,4.3.32767]",
           "System.Linq": "(,4.3.32767]",
-          "System.Linq.AsyncEnumerable": "(,10.0.0-rc.2.25502.107]",
+          "System.Linq.AsyncEnumerable": "(,10.0.32767]",
           "System.Linq.Expressions": "(,4.3.32767]",
           "System.Linq.Parallel": "(,4.3.32767]",
           "System.Linq.Queryable": "(,4.3.32767]",
           "System.Memory": "(,5.0.32767]",
           "System.Net.Http": "(,4.3.32767]",
-          "System.Net.Http.Json": "(,10.0.0-rc.2.25502.107]",
+          "System.Net.Http.Json": "(,10.0.32767]",
           "System.Net.NameResolution": "(,4.3.32767]",
           "System.Net.NetworkInformation": "(,4.3.32767]",
           "System.Net.Ping": "(,4.3.32767]",
           "System.Net.Primitives": "(,4.3.32767]",
           "System.Net.Requests": "(,4.3.32767]",
           "System.Net.Security": "(,4.3.32767]",
-          "System.Net.ServerSentEvents": "(,10.0.0-rc.2.25502.107]",
+          "System.Net.ServerSentEvents": "(,10.0.32767]",
           "System.Net.Sockets": "(,4.3.32767]",
           "System.Net.WebHeaderCollection": "(,4.3.32767]",
           "System.Net.WebSockets": "(,4.3.32767]",
@@ -1754,7 +1763,7 @@
           "System.Reflection.Emit.ILGeneration": "(,4.7.32767]",
           "System.Reflection.Emit.Lightweight": "(,4.7.32767]",
           "System.Reflection.Extensions": "(,4.3.32767]",
-          "System.Reflection.Metadata": "(,10.0.0-rc.2.25502.107]",
+          "System.Reflection.Metadata": "(,10.0.32767]",
           "System.Reflection.Primitives": "(,4.3.32767]",
           "System.Reflection.TypeExtensions": "(,4.3.32767]",
           "System.Resources.Reader": "(,4.3.32767]",
@@ -1786,17 +1795,17 @@
           "System.Security.Principal.Windows": "(,5.0.32767]",
           "System.Security.SecureString": "(,4.3.32767]",
           "System.Text.Encoding": "(,4.3.32767]",
-          "System.Text.Encoding.CodePages": "(,10.0.0-rc.2.25502.107]",
+          "System.Text.Encoding.CodePages": "(,10.0.32767]",
           "System.Text.Encoding.Extensions": "(,4.3.32767]",
-          "System.Text.Encodings.Web": "(,10.0.0-rc.2.25502.107]",
-          "System.Text.Json": "(,10.0.0-rc.2.25502.107]",
+          "System.Text.Encodings.Web": "(,10.0.32767]",
+          "System.Text.Json": "(,10.0.32767]",
           "System.Text.RegularExpressions": "(,4.3.32767]",
           "System.Threading": "(,4.3.32767]",
-          "System.Threading.AccessControl": "(,10.0.0-rc.2.25502.107]",
-          "System.Threading.Channels": "(,10.0.0-rc.2.25502.107]",
+          "System.Threading.AccessControl": "(,10.0.32767]",
+          "System.Threading.Channels": "(,10.0.32767]",
           "System.Threading.Overlapped": "(,4.3.32767]",
           "System.Threading.Tasks": "(,4.3.32767]",
-          "System.Threading.Tasks.Dataflow": "(,10.0.0-rc.2.25502.107]",
+          "System.Threading.Tasks.Dataflow": "(,10.0.32767]",
           "System.Threading.Tasks.Extensions": "(,5.0.32767]",
           "System.Threading.Tasks.Parallel": "(,4.3.32767]",
           "System.Threading.Thread": "(,4.3.32767]",
