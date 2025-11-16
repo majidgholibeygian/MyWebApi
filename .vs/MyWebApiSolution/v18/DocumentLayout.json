@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Train\\CICD\\MyWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\controllers\\storagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\core\\abstractions\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\core\\abstractions\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\infrastructure\\minio\\miniostorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\application\\storage\\iuploadfileusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\application\\storage\\iuploadfileusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|d:\\train\\cicd\\mywebapi\\mywebapi\\core\\abstractions\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018138E-09C3-42AC-9B4D-95302A50292A}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\core\\abstractions\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Train\\CICD\\MyWebApi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -66,63 +66,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MinioStorageService.cs",
-              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs*",
-              "RelativeToolTip": "MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T05:13:12.395Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UploadFileUseCase.cs",
-              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\UploadFileUseCase.cs*",
-              "RelativeToolTip": "MyWebApi\\Application\\Storage\\UploadFileUseCase.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Title": "MinioStorageService.cs",
+              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
+              "RelativeDocumentMoniker": "MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
+              "RelativeToolTip": "MyWebApi\\Infrastructure\\Minio\\MinioStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T05:13:00.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T05:13:12.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IUploadFileUseCase.cs",
-              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
-              "RelativeDocumentMoniker": "MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs*",
-              "RelativeToolTip": "MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "UploadFileUseCase.cs",
+              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
+              "RelativeDocumentMoniker": "MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
+              "RelativeToolTip": "MyWebApi\\Application\\Storage\\UploadFileUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T05:12:48.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T05:13:00.326Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IUploadFileUseCase.cs",
+              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
+              "RelativeDocumentMoniker": "MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
+              "RelativeToolTip": "MyWebApi\\Application\\Storage\\IUploadFileUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T05:12:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IStorageService.cs",
               "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Core\\Abstractions\\IStorageService.cs",
               "RelativeDocumentMoniker": "MyWebApi\\Core\\Abstractions\\IStorageService.cs",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Core\\Abstractions\\IStorageService.cs*",
-              "RelativeToolTip": "MyWebApi\\Core\\Abstractions\\IStorageService.cs*",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Core\\Abstractions\\IStorageService.cs",
+              "RelativeToolTip": "MyWebApi\\Core\\Abstractions\\IStorageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T05:12:36.109Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-16T05:03:13.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T05:03:13.805Z"
             },
             {
               "$type": "Document",
@@ -143,12 +139,11 @@
               "Title": "mywebapi.csproj",
               "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\mywebapi\\mywebapi.csproj",
               "RelativeDocumentMoniker": "mywebapi\\mywebapi.csproj",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\mywebapi\\mywebapi.csproj*",
-              "RelativeToolTip": "mywebapi\\mywebapi.csproj*",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\mywebapi\\mywebapi.csproj",
+              "RelativeToolTip": "mywebapi\\mywebapi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-15T13:37:23.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:37:23.342Z"
             },
             {
               "$type": "Document",
@@ -188,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StorageController.cs",
               "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Controllers\\StorageController.cs",
               "RelativeDocumentMoniker": "MyWebApi\\Controllers\\StorageController.cs",
               "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Controllers\\StorageController.cs*",
               "RelativeToolTip": "MyWebApi\\Controllers\\StorageController.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T12:09:03.025Z",
               "EditorCaption": ""
@@ -209,7 +204,8 @@
               "RelativeToolTip": "MyWebApi\\Services\\MinioStorageService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:08:43.537Z"
+              "WhenOpened": "2025-11-15T12:08:43.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -225,13 +221,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Program.cs",
               "RelativeDocumentMoniker": "MyWebApi\\Program.cs",
-              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Program.cs*",
-              "RelativeToolTip": "MyWebApi\\Program.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAlwCEAAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi\\Program.cs",
+              "RelativeToolTip": "MyWebApi\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwCIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T12:01:31.627Z",
               "EditorCaption": ""

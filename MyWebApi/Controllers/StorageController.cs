@@ -18,9 +18,8 @@ namespace mywebapi.Controllers
         /// <summary>
         /// Upload a file to MinIO. Form-data: file (IFormFile). Optional query: bucket.
         /// </summary>
-        [HttpPost("upload")]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Upload([FromForm] Microsoft.AspNetCore.Http.IFormFile file, [FromQuery] string? bucket)
+        [HttpPost("upload")]        
+        public async Task<IActionResult> Upload(IFormFile file, [FromQuery] string? bucket)
         {
             if (file == null) return BadRequest("file is required");
 

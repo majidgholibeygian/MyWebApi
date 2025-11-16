@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\",
+  "WorkspaceRootPath": "D:\\Train\\CICD\\MyWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8363D7A-EA72-4D35-972B-3541591AD69B}|mywebapi.tests\\mywebapi.tests.csproj|c:\\projectsource\\train\\cicd\\mywebapici\\mywebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8363D7A-EA72-4D35-972B-3541591AD69B}|mywebapi.tests\\mywebapi.tests.csproj|d:\\train\\cicd\\mywebapi\\mywebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8363D7A-EA72-4D35-972B-3541591AD69B}|mywebapi.tests\\mywebapi.tests.csproj|solutionrelative:mywebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi.Tests\\UnitTest1.cs",
+              "DocumentMoniker": "D:\\Train\\CICD\\MyWebApi\\MyWebApi.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "MyWebApi.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\ProjectSource\\Train\\CICD\\MyWebApiCI\\MyWebApi.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Train\\CICD\\MyWebApi\\MyWebApi.Tests\\UnitTest1.cs",
               "RelativeToolTip": "MyWebApi.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T17:54:46.855Z",
               "EditorCaption": ""
