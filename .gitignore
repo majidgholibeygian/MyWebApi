@@ -1,10 +1,12 @@
-# Minimal .gitignore for a .NET web project
+# Ignore build outputs and common IDE files for .NET projects
 
 # Build outputs
-/bin/
-/obj/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
 
-# Visual Studio and Rider
+# Visual Studio / Rider / VS Code
 .vs/
 .vscode/
 .idea/
@@ -14,8 +16,9 @@
 *.suo
 *.userosscache
 *.rsuser
+*.sln.docstates
 
-# NuGet packages and artifacts
+# NuGet / packages
 *.nupkg
 **/[Pp]ackages/*
 
@@ -24,19 +27,22 @@ publish/
 *.publish.xml
 *.azurePubxml
 
-# Test and coverage results
+# Test results and coverage
+TestResults/
 coverage*.xml
 coverage*.info
-TestResults/
+*.coverage
+*.coveragexml
+
+# Logs, temp
+*.log
+*.tmp
+*.cache
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Logs and temporary files
-*.log
-*.cache
-
-# Keep solution and project files
+# Keep solution/project files tracked
 !/*.sln
 !/*.csproj
