@@ -1,8 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using mywebapi.Models;
-using mywebapi.Services;
+using mywebapi.Application.Storage;
 
 namespace mywebapi.Controllers
 {
@@ -10,28 +8,24 @@ namespace mywebapi.Controllers
     [Route("[controller]")]
     public class StorageController : ControllerBase
     {
-        private readonly IStorageService _storage;
-        private readonly MinioOptions _options;
+        private readonly IUploadFileUseCase _uploadUseCase;
 
-        public StorageController(IStorageService storage, IOptions<MinioOptions> options)
+        public StorageController(IUploadFileUseCase uploadUseCase)
         {
-            _storage = storage;
-            _options = options.Value;
+            _uploadUseCase = uploadUseCase;
         }
 
         /// <summary>
         /// Upload a file to MinIO. Form-data: file (IFormFile). Optional query: bucket.
         /// </summary>
-        [HttpPost("upload")]     
-        public async Task<IActionResult> Upload(IFormFile file, [FromQuery] string? bucket)
+        [HttpPost("upload")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Upload([FromForm] Microsoft.AspNetCore.Http.IFormFile file, [FromQuery] string? bucket)
         {
             if (file == null) return BadRequest("file is required");
 
-            var bucketName = string.IsNullOrWhiteSpace(bucket) ? _options.BucketName : bucket;
-            var objectName = file.FileName;
-
-            await _storage.UploadAsync(file, bucketName, objectName);
-            return Ok(new { bucket = bucketName, objectName });
+            var result = await _uploadUseCase.ExecuteAsync(file, bucket);
+            return Ok(new { bucket = result.Bucket, objectName = result.ObjectName });
         }
 
         /// <summary>
@@ -42,8 +36,11 @@ namespace mywebapi.Controllers
         {
             if (string.IsNullOrWhiteSpace(objectName)) return BadRequest("objectName is required");
 
-            var bucketName = string.IsNullOrWhiteSpace(bucket) ? _options.BucketName : bucket;
-            var stream = await _storage.DownloadAsync(bucketName, objectName);
+            // For download we use the infrastructure abstraction directly (or create a Download use-case similarly)
+            // Keep controller thin: if you need auth/validation, put it in use-case.
+            var bucketName = string.IsNullOrWhiteSpace(bucket) ? "uploads" : bucket;
+            var stream = await HttpContext.RequestServices.GetRequiredService<mywebapi.Core.Abstractions.IStorageService>()
+                                  .DownloadAsync(bucketName, objectName);
 
             return File(stream, "application/octet-stream", objectName);
         }

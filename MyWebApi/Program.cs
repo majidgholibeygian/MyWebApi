@@ -2,7 +2,9 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using Minio;
 using mywebapi.Models;
-using mywebapi.Services;
+using mywebapi.Core.Abstractions;
+using mywebapi.Infrastructure.Minio;
+using mywebapi.Application.Storage;
 using mywebapi.Swagger;
 using Scalar.AspNetCore;
 
@@ -27,12 +29,11 @@ builder.Services.AddSwaggerGen(c =>
 // Bind MinIO options (can be overridden via appsettings.json or env vars)
 builder.Services.Configure<MinioOptions>(builder.Configuration.GetSection("Minio"));
 
-// Register an IMinioClient built from options
+// Register IMinioClient built from options
 builder.Services.AddSingleton<IMinioClient>(sp =>
 {
     var options = sp.GetRequiredService<IOptions<MinioOptions>>().Value;
 
-    // Build the Minio client using the fluent builder. Build() returns IMinioClient.
     var client = new MinioClient()
         .WithEndpoint(options.Endpoint)
         .WithCredentials(options.AccessKey, options.SecretKey)
@@ -42,22 +43,23 @@ builder.Services.AddSingleton<IMinioClient>(sp =>
     return client;
 });
 
-// Register storage abstraction and implementation (dependency inversion)
+// Infrastructure implements core abstraction
 builder.Services.AddSingleton<IStorageService, MinioStorageService>();
+
+// Application use-cases
+builder.Services.AddScoped<IUploadFileUseCase, UploadFileUseCase>();
 
 var app = builder.Build();
 
-app.UseSwagger(); // serves /swagger/v1/swagger.json
+app.UseSwagger();
+app.UseStaticFiles();
 
-app.UseStaticFiles(); // optional if you serve local assets like logos
-
-// Use Scalar UI (requires the correct package + using directive)
 app.MapScalarApiReference(options =>
 {
     options.OpenApiRoutePattern = "/swagger/v1/swagger.json";
     options.Title = "My API";
     options.Theme = ScalarTheme.Purple;
-    options.EndpointPathPrefix = "docs"; // /docs
+    options.EndpointPathPrefix = "docs";
 });
 
 app.UseAuthorization();

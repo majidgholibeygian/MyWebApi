@@ -1,48 +1,19 @@
-# Ignore build outputs and common IDE files for .NET projects
-
-# Build outputs
+# Ignore build outputs and IDE files
 **/bin/
 **/obj/
-**/Debug/
-**/Release/
 
-# Visual Studio / Rider / VS Code
 .vs/
 .vscode/
 .idea/
 
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.rsuser
-*.sln.docstates
-
-# NuGet / packages
-*.nupkg
-**/[Pp]ackages/*
-
-# Publish output
-publish/
-*.publish.xml
-*.azurePubxml
-
-# Test results and coverage
-TestResults/
-coverage*.xml
-coverage*.info
-*.coverage
-*.coveragexml
-
-# Logs, temp
-*.log
-*.tmp
-*.cache
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Keep solution/project files tracked
+# Keep project/solution files
 !/*.sln
 !/*.csproj
+
+# If Visual Studio still shows build files in the Git Changes window
+# - Run Clean Solution and then rebuild, then refresh Git Changes.
+# - Check for nested .gitignore files inside subfolders that might override rules.
+
+# If you want, I can:
+# - update your repo root .gitignore file for you (I already showed suggested content), or
+# - run the exact removal commands here (tell me which option you prefer)
