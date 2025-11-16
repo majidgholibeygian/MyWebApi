@@ -1,4 +1,9 @@
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
+using Minio;
+using mywebapi.Models;
+using mywebapi.Services;
+using mywebapi.Swagger;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +20,30 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1",
         Description = "Sample API using Scalar UI"
     });
+
+    c.OperationFilter<FileUploadOperationFilter>();
 });
+
+// Bind MinIO options (can be overridden via appsettings.json or env vars)
+builder.Services.Configure<MinioOptions>(builder.Configuration.GetSection("Minio"));
+
+// Register an IMinioClient built from options
+builder.Services.AddSingleton<IMinioClient>(sp =>
+{
+    var options = sp.GetRequiredService<IOptions<MinioOptions>>().Value;
+
+    // Build the Minio client using the fluent builder. Build() returns IMinioClient.
+    var client = new MinioClient()
+        .WithEndpoint(options.Endpoint)
+        .WithCredentials(options.AccessKey, options.SecretKey)
+        .WithSSL(options.Secure)
+        .Build();
+
+    return client;
+});
+
+// Register storage abstraction and implementation (dependency inversion)
+builder.Services.AddSingleton<IStorageService, MinioStorageService>();
 
 var app = builder.Build();
 
@@ -32,7 +60,6 @@ app.MapScalarApiReference(options =>
     options.EndpointPathPrefix = "docs"; // /docs
 });
 
-app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
